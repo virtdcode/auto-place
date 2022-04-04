@@ -208,7 +208,7 @@ const { html, render } = mlp_uhtml;
     top: 0%;
     right: 0%;
     background-color: rgba(0,0,0,.75);
-    border: 1px solid black;
+    border: 1px solid red;
     overflow: hidden;
   }
 
