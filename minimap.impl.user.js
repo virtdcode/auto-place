@@ -61,7 +61,7 @@ const { html, render } = mlp_uhtml;
 
   const rPlaceTemplatesGithubLfs = true;
   const rPlaceTemplateBaseUrl = rPlaceTemplatesGithubLfs
-    ? "https://media.githubusercontent.com/media/auto-place/raw/main/minimap.impl.user.js"
+    ? "https://media.githubusercontent.com/media/virtdcode/auto-place/raw/main/minimap.impl.user.js"
     : "https://github.com/virtdcode/auto-place/raw/main/minimap.impl.user.js";
   const getRPlaceTemplateUrl = function (templateName, type) {
     return `${rPlaceTemplateBaseUrl}/${templateName}/${type}.png`;
