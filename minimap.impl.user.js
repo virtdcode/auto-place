@@ -75,6 +75,7 @@ const { html, render } = mlp_uhtml;
       maskUrl: options.mask ? getRPlaceTemplateUrl(templateName, "mask") : undefined,
     });
     rPlaceTemplateNames.push(templateName);
+    console.log(rPlaceTemplateNames.length)
   };
   addRPlaceTemplate("twitch", { bot: true, mask: true });
   let rPlaceTemplateName;
